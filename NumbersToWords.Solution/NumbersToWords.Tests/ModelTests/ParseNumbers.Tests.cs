@@ -21,6 +21,23 @@ namespace NumbersToWords.Tests
       ParseNumbers testParseNumbers = new ParseNumbers();
       Assert.AreEqual(2, testParseNumbers.NumberLength(44));
     }
+
+    [TestMethod]
+    public void NumberLength_ThreeDigit_3()
+    {
+      ParseNumbers testParseNumbers = new ParseNumbers();
+      Assert.AreEqual(3, testParseNumbers.NumberLength(444));
+    }
+
+    [TestMethod]
+    public void OneDigitDictionary_returnWord_two()
+    {
+      ParseNumbers testParseNumbers = new ParseNumbers();
+      Assert.AreEqual("two", testParseNumbers.OneDigitDictionary(2));
+    }
+
+    // [TestMethod]
+    // public void ParsedNumber
   }
 }
 // // sample test
