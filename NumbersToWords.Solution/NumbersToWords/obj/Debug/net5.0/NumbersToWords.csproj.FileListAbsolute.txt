@@ -1,0 +1,12 @@
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/NumbersToWords.csproj.AssemblyReference.cache
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/NumbersToWords.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/NumbersToWords.AssemblyInfoInputs.cache
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/NumbersToWords.AssemblyInfo.cs
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/NumbersToWords.csproj.CoreCompileInputs.cache
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/bin/Debug/net5.0/NumbersToWords.deps.json
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/bin/Debug/net5.0/NumbersToWords.dll
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/bin/Debug/net5.0/ref/NumbersToWords.dll
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/bin/Debug/net5.0/NumbersToWords.pdb
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/NumbersToWords.dll
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/ref/NumbersToWords.dll
+/Users/pattyrose/Desktop/c0ding/NumbersToWords/NumbersToWords.Solution/NumbersToWords/obj/Debug/net5.0/NumbersToWords.pdb
