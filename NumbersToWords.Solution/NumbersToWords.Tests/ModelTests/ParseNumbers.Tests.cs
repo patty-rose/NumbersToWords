@@ -8,36 +8,61 @@ namespace NumbersToWords.Tests
   [TestClass]
   public class ParseNumbersTests
   {
+  //   [TestMethod]
+  //   public void NumberLength_OneDigit_1()
+  //   {
+  //     ParseNumbers testParseNumbers = new ParseNumbers();
+  //     Assert.AreEqual(1, testParseNumbers.NumberLength(4));
+  //   }
+
+  //   [TestMethod]
+  //   public void NumberLength_TwoDigit_2()
+  //   {
+  //     ParseNumbers testParseNumbers = new ParseNumbers();
+  //     Assert.AreEqual(2, testParseNumbers.NumberLength(44));
+  //   }
+
+  //   [TestMethod]
+  //   public void NumberLength_ThreeDigit_3()
+  //   {
+  //     ParseNumbers testParseNumbers = new ParseNumbers();
+  //     Assert.AreEqual(3, testParseNumbers.NumberLength(444));
+  //   }
+
+  //   [TestMethod]
+  //   public void OneDigitDictionary_returnWord_one()
+  //   {
+  //     ParseNumbers testParseNumbers = new ParseNumbers();
+  //     Assert.AreEqual("one", testParseNumbers.OneDigitDictionary(1));
+  //   }
+
     [TestMethod]
-    public void NumberLength_OneDigit_1()
+    public void ParsedNumber_ReturnOneDigitWord_one()
     {
       ParseNumbers testParseNumbers = new ParseNumbers();
-      Assert.AreEqual(1, testParseNumbers.NumberLength(4));
+      Assert.AreEqual("one", testParseNumbers.ParsedNumber(1));
     }
 
     [TestMethod]
-    public void NumberLength_TwoDigit_2()
+    public void ParsedNumber_ReturnTwoDigitWordNotTens_twentytwo()
     {
       ParseNumbers testParseNumbers = new ParseNumbers();
-      Assert.AreEqual(2, testParseNumbers.NumberLength(44));
+      Assert.AreEqual("twenty two", testParseNumbers.ParsedNumber(22));
     }
 
     [TestMethod]
-    public void NumberLength_ThreeDigit_3()
+    public void ParsedNumber_TeensAsWords_twelve()
     {
       ParseNumbers testParseNumbers = new ParseNumbers();
-      Assert.AreEqual(3, testParseNumbers.NumberLength(444));
+      Assert.AreEqual("twelve", testParseNumbers.ParsedNumber(12));
     }
 
     [TestMethod]
-    public void OneDigitDictionary_returnWord_two()
+    public void ParsedNumber_ReturnThreeDigitsAsWords_684()
     {
       ParseNumbers testParseNumbers = new ParseNumbers();
-      Assert.AreEqual("two", testParseNumbers.OneDigitDictionary(2));
+      Assert.AreEqual("six hundred eighty four", testParseNumbers.ParsedNumber(684));
     }
-
-    // [TestMethod]
-    // public void ParsedNumber
   }
 }
 // // sample test
